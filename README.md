@@ -32,8 +32,6 @@ The project emphasizes responsive design, ensuring a seamless experience across 
 ## Technologies Used
 
 - **React** – JavaScript library for building user interfaces
-- **Vite** – Next-generation, fast build tool
-- **Tailwind CSS** – Utility-first CSS framework
 - **Bootstrap** – Popular CSS framework providing pre-designed components and responsive layout utilities
 - **React Router** – Declarative routing for React applications
 - **HTML5** – Markup language for structuring web content
@@ -73,4 +71,4 @@ npm run build
 ## Credits
 
 This project was created as part of my learning journey while taking the course  
-[Meta Front-End Developer Professional Certificate]([https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=25BBPMXINACTIVE](https://www.coursera.org/professional-certificates/meta-front-end-developer)) on Coursera.
+[Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer) on Coursera.
