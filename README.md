@@ -54,16 +54,10 @@ cd LittleLemonSite_React
 npm install
 ```
 
-### Run in Development Mode
+### Run Project
 
 ```bash
-npm run dev
-```
-
-### Build for Production
-
-```bash
-npm run build
+npm start
 ```
 
 ---
