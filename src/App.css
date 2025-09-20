@@ -1,0 +1,202 @@
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+
+.calltoaction {
+  background-color: #495E57;
+  color: white;
+  height: 380px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.calltoaction h1,
+.chicago h1,
+.bookingtitle h1 {
+  font-family: 'Markazi Text', Courier, monospace;
+  font-weight: 500;
+  font-size: 60pt;
+  color: #F4CE14;
+  padding-top: 20px;
+}
+
+.calltoaction h2,
+.chicago h2 {
+  font-family: 'Markazi Text', Courier, monospace;
+  font-weight: 500;
+  font-size: 30pt;
+}
+
+.calltoaction p {
+  width: 50%;
+}
+
+.calltoaction .btnReserve, .specials .btnSpecials {
+  border: 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #F4CE14;
+}
+
+.calltoaction img {
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.specials {
+  height: 600px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 100px;
+}
+
+.specials .card {
+  width: 30%;
+  height: 40vh;
+  background-color:rgb(243, 243, 243);
+  border: 0px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.specials .card h2 {
+  font-family: 'Markazi Text', Courier, monospace;
+}
+
+.specials .card h4 {
+  text-align: end;
+  font-family: 'Markazi Text', Courier, monospace;
+}
+
+.customerssay {
+  background-color: #495E57;
+  color: white;
+  height: 450px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.customerssay h1 {
+  font-family: 'Markazi Text', Courier, monospace;
+  color: #F4CE14;
+  font-weight: 500;
+  font-size: 40pt;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.customerssay .card {
+  width:250px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.customerssay h3,
+.customerssay h4 {
+  font-family: 'Markazi Text', Courier, monospace;
+  font-weight: 500;
+}
+
+.chicago {
+  height: 550px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 50px;
+  background-image: url('./img/restaurant.jpg');
+  background-size:100%;
+}
+
+.chicago img {
+  margin-top: 30px;
+}
+
+.chicago .card {
+  background-color:rgb(243, 243, 243, .94);
+  border: 0;
+  padding: 50px;
+  height: 90%;
+}
+
+footer {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 30px;
+  background-color: #495E57;
+  color: white;
+  height: 200px;
+}
+
+footer .navbar li a {
+  color: white !important;
+}
+
+footer p {
+  margin-left: 20px;
+}
+
+.bookingpage {
+  height: auto;
+}
+
+.bookingpage .bookingtitle {
+  background-color: #495E57;
+  height: 120px;
+}
+
+.bookingpage .bookingtitle h1 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.bookingpage .card {
+  width: 50%;
+  border: 0;
+  background-color: rgb(243, 243, 243);
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.bookingform {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.bookingform .btnSubmit {
+  background-color: #F4CE14;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.bookingform select,
+.bookingform input {
+  margin-bottom: 20px;
+}
